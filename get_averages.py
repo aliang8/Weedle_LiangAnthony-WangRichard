@@ -13,7 +13,7 @@ c = db.cursor()    #facilitate db ops
 
 d = {}
 
-q = "SELECT name, students.id, mark FROM courses, students WHERE students.id = courses.id;"
+q = "SELECT name, mark FROM courses, students WHERE students.id = courses.id;"
 
 results = c.execute(q)   
 
