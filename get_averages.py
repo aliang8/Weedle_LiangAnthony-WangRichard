@@ -26,7 +26,7 @@ for rows in results:
     d[name][1] = id
     d[name][2] += 1
 for key in d:
-    print "Name: "+ key + " ID: " + str(d[key][1]) + " Average: " + str(float(d[key][0])/d[key][2]) 
+    print "Name: "+ key + " Average: " + str(float(d[key][0])/d[key][2]) 
 
 
 #==========================================================
