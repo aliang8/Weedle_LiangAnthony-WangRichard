@@ -30,7 +30,7 @@ for rows in results:
     d[name][1] += 1
     
 for key in d:
-    print "Name: "+ key + " Average: " + str(float(d[key][0])/d[key][2]) 
+    print "Name: "+ key + " Average: " + str(float(d[key][0])/d[key][1]) 
 
 
 #==========================================================
